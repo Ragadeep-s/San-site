@@ -7,8 +7,3 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.10
-
-  - type: static_site
-    name: sudharsan-portfolio-frontend
-    buildCommand: npm install && npm run build
-    staticDir: public
