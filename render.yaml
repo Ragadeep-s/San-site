@@ -12,6 +12,3 @@ services:
     name: sudharsan-portfolio-frontend
     buildCommand: npm install && npm run build
     staticDir: public
-    routes:
-      - src: /*
-        dest: /
