@@ -1,14 +1,17 @@
 services:
   - type: web
-    name: sudharsan-portfolio-backend # Choose a unique name for your backend service
+    name: sudharsan-portfolio-backend
     runtime: python3
     buildCommand: pip install -r backend/requirements.txt
     startCommand: gunicorn backend.app:app --bind 0.0.0.0:$PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.10 # Or your preferred Python version
+        value: 3.10
 
   - type: static
-    name: sudharsan-portfolio-frontend # Choose a unique name for your frontend service
-    buildCommand: npm install && npm run build
+    name: sudharsan-portfolio-frontend
+    buildCommand: npm install
     staticDir: public
+    routes:
+      - src: /*
+        dest: /        
