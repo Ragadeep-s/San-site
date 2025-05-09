@@ -105,5 +105,5 @@ function ProjectDetails() {
             <p className="text-gray-600 mb-4">Category: {project.category}</p>
             {projectDetails && (
               <>
-                <p className="text-gray-700 mb-4">{projectDetails.description}</p
+                <p className="text-gray-700 mb-4">{projectDetails.description}</p>
              
