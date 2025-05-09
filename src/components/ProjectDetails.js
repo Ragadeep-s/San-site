@@ -106,4 +106,3 @@ function ProjectDetails() {
             {projectDetails && (
               <>
                 <p className="text-gray-700 mb-4">{projectDetails.description}</p>
-             
