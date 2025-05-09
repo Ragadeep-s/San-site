@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../../public/images/profile.jpg'; // Replace with your actual profile image path
+import ProfileImage from '../assets/profile.jpg'; // Replace with your actual profile image path
 
 function About() {
   return (
