@@ -29,8 +29,7 @@ function ProjectDetails() {
       </div>
     );
   }
-
-  // Mock data for details, replace with actual data if needed in the future
+  
   const details = {
     'Aalaporan thamizhan': {
       releaseDate: 'Main version (18th October 2017), reversion - (yet to be released)',
@@ -70,7 +69,7 @@ function ProjectDetails() {
     'Venpani Malare': {
       releaseDate: 'Episode 1: 8th dec 2021 (Video is down)',
       description: 'Venpani Malarey is a Rom - Com Tamil Livin Series. The lead characters Raj and Vishwatha faces many problem by the Society & Friends because of their way of culture, but the love between them gets more stronger day by day. Did they get married? Let\'s wait and watch!',
-      watchLink: 'https://youtu.be/-rZWOW8UfIk?si=ilnmaO4l3HqP87RL', // Link to Episode 1
+      watchLink: 'https://youtu.be/-rZWOW8UfIk?si=ilnmaO4l3HqP87RL',
     },
     'Aval Peyar Dhatchaeni': {
       releaseDate: '13th June 2022',
