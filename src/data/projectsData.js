@@ -25,7 +25,7 @@ const projectsData = [
       },
       {
         title: "Scared",
-        image: "muthal-maatram.jpg", // Using a placeholder image
+        image: "", // Using a placeholder image
         briefDescription: "A chain smoker has a life-changing dream.",
       },
       {
