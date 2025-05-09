@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -10,10 +10,11 @@ import Preloader from './components/Preloader';
 import { motion, AnimatePresence } from 'framer-motion';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NavBar from './components/NavBar'; // Import the NavBar
 
 function App() {
   const location = useLocation();
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     AOS.init({
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="app">
+      <NavBar /> {/* Render the NavBar component */}
       {loading ? (
         <Preloader />
       ) : (
