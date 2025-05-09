@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/San-site/static/css/main.8bbaa9da.css",
+    "main.js": "/San-site/static/js/main.dbb366f3.js",
+    "static/media/profile.jpg": "/San-site/static/media/profile.47f5901518f8a7bdc11b.jpg",
+    "index.html": "/San-site/index.html",
+    "main.8bbaa9da.css.map": "/San-site/static/css/main.8bbaa9da.css.map",
+    "main.dbb366f3.js.map": "/San-site/static/js/main.dbb366f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bbaa9da.css",
+    "static/js/main.dbb366f3.js"
+  ]
+}
